@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Socials from "../socials/Socials";
 import "./topbar.css";
 
 export default function TopBar() {
@@ -6,10 +7,7 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
-        <i className="topIcon fab fa-pinterest-square"></i>
-        <i className="topIcon fab fa-instagram-square"></i>
+        <Socials />
       </div>
       <div className="topCenter">
         <ul className="topList">
